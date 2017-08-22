@@ -1,5 +1,11 @@
 #!/bin/bash
 
+custom_rem()
+{
+	echo "Overriding rm. Moving to Trash."
+	mv $1 $2 $3 $4 $5 $6 /home/maverick/.local/share/Trash/files 
+}
+
 gcc1()
 {
 	echo

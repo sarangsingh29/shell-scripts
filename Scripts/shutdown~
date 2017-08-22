@@ -1,3 +1,0 @@
-#!/bin/bash
-
-sudo -A shutdown -P 1
